@@ -3,12 +3,12 @@ An end-to-end, niche-agnostic AI automation system built in n8n that finds poten
 Built as a real, working system (not a demo) — every workflow below has been tested end-to-end.
 🚀 What It Does
 1. Lead Discovery
-Searches for target companies via Google (Serper.dev API)
-AI (Gemini) researches each company and judges relevance + pain points against a configurable Ideal Customer Profile
+Searches for target companies via search engines
+AI researches each company and judges relevance + pain points against a configurable Ideal Customer Profile
 Filters out irrelevant leads automatically
 AI scores every relevant lead 0–100 with a reason
 AI writes a personalized outreach message (subject + body) based on the company's specific situation
-Sends the lead + message to Telegram for human approval (Approve/Decline buttons) before anything goes out
+Sends the lead + message to Telegram/Whatsapp for human approval (Approve/Decline buttons) before anything goes out
 On approval, sends the email automatically via SMTP
 Saves every lead to a lightweight JSON-based CRM (score, status, message, date)
 2. Follow-Up Automation
